@@ -2,7 +2,7 @@ body {
     background-color:white;
 }
 .nav-container {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid #304960;
     display: flex;
     justify-content: space-between;
 }
@@ -20,23 +20,68 @@ nav{
     border-style: solid;
     border-width: 7px;
     border-radius: 10%;
-    border-color: black;
+    border-color: #304960;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .nav-container ul{
-    width: 35%;
+    width: 55%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0;
 }
 
 li{
     list-style-type: none;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 a{
     text-decoration: none;
-    color: inherit;
+    color: #304960;
+}
+
+.main-photo{
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.text-container{
+    padding: 80px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    margin-right: -20px;
+}
+
+.text-container p{
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 30%;
+    margin-right: -50px;
+    z-index: 1000;
+}
+.right{
+    width: 70%;
+}
+main h1{
+    text-align: center;
+    color: #304960;
+    
+    
+}
+
+.main-border{
+    padding: 50px;
 }
