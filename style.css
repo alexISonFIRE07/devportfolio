@@ -1,0 +1,29 @@
+body {
+    background-color:white;
+}
+.nav-container {
+    background-color:rgb(238, 237, 237);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-square{
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-width: 7px;
+    border-radius: 10%;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container ul{
+    display:flex;
+}
