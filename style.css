@@ -2,7 +2,7 @@ body {
     background-color:white;
 }
 .nav-container {
-    border-bottom: 1px solid #304960;
+    border-bottom: 5px solid #304960;
     display: flex;
     justify-content: space-between;
 }
@@ -99,21 +99,19 @@ footer{
 .portfolio-container{
     display: flex;
     justify-content: space-between;
+    border: 2px solid lightgray;
+    border-radius: 10px;
 }
 
-.portfolioleft{
-    border: 1px solid black;
+.portfolio{
     width: 50%;
+    padding: 20px;
 }
 
 img{
     max-height:100%; max-width:100%;
 }
 
-.portfolioright{
-    border: 1px solid black;
-    width: 50%;
-}
 
 main {
     padding-top: 15px;
