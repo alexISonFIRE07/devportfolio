@@ -96,10 +96,21 @@ footer{
     border: 1px solid #304960;
 }
 
-portfolioleft{
-
+.portfolio-container{
+    display: flex;
+    justify-content: space-between;
 }
 
-portfolioright{
-    
+.portfolioleft{
+    border: 1px solid black;
+    width: 50%;
+}
+
+.portfolioright{
+    border: 1px solid black;
+    width: 50%;
+}
+
+main {
+    padding-top: 15px;
 }
