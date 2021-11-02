@@ -7,6 +7,23 @@ body {
     justify-content: space-between;
 }
 
+#mobile-nav{
+    display: none
+}
+
+@media screen and (max-width: 480px){
+    #desktop-nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: inherit;
+    }
+}
+
+.hamburger-line {
+    
+}
+
 nav{
     width: 100%;
     padding: 3%;
